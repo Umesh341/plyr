@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Plyr from 'plyr';
+import Plyr from 'plyr/dist/plyr.js';
 import 'plyr/dist/plyr.css';
 
 const Player = ({ initialVideoId = 'HbkF5Dv_AoQ' }) => {
